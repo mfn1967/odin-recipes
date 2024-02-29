@@ -5,12 +5,14 @@ body {
 
     background-color: aqua;
 }
+
 .centeredtext, h1, h2{
     text-align: center;
 }
 
 h1 {
     color: red;
+    font-size: 40px;
 }
 
 .image {
@@ -25,7 +27,10 @@ ul, ol, p {
 }
 
 .recipelist {
-    margin-top: 40px;
+    margin-top: 0px;
     background-color: antiquewhite;
     border: 2px solid red;
+    padding: 20px 0;
+    font-size: 40px;
+    list-style-type: none;
 }
